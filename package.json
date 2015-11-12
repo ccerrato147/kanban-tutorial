@@ -20,7 +20,9 @@
   },
   "dependencies": {
     "babel-plugin-react-transform": "^1.1.1",
+    "node-uuid": "^1.4.3",
     "react": "^0.14.1",
+    "react-dom": "^0.14.2",
     "react-transform-hmr": "^1.0.1"
   }
 }

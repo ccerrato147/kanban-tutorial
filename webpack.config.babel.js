@@ -34,14 +34,7 @@ var common = {
 			}
 		]
 	},
-	devserver: {
-		historyApiFallback: true,
-		hot: true,
-		inline: true,
-		progress:true
-	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),
 		new HtmlwebpackPlugin({
 			title: 'Kanban app'
 		})
